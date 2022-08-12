@@ -1,0 +1,84 @@
+.viewed {
+    margin-top: 33px;
+    &__anime {
+        position: relative;
+        width: 900px;
+        height: 370px;
+        background: linear-gradient(90deg, rgba(52, 38, 92, 1) 0%, rgba(52, 38, 92, 1) 16%, rgba(117, 70, 114, 1) 74%);
+        border-radius: 20px;
+        display: flex;
+        .viewed__img {
+            position: absolute;
+            object-fit: cover;
+            width: 300px;
+            height: 425px;
+            left: -30px;
+            top: -49px;
+        }
+    }
+    .viewed__block {
+        padding: 20px 15px 10px 300px;
+        .viewed__subtitle {
+            font-weight: 500;
+            font-size: 48px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+        .viewed__episode {
+            font-weight: 500;
+            font-size: 24px;
+            color: #1ABDF2;
+        }
+        .viewed__header {
+            position: relative;
+            background-color: #754672;
+            width: 320px;
+            height: 45px;
+            border-radius: 15px 15px 0 0;
+            margin-bottom: 15px;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 59px;
+                height: 45px;
+                right: 0;
+                background-color: #C4C4C4;
+                border-radius: 0px 15px 0px 0px;
+                opacity: 0.2;
+            }
+        }
+        .viewed__text-fz {
+            font-weight: 500;
+            font-size: 13px;
+            color: #FFFFFF;
+            opacity: 0.5;
+            margin-bottom: 15px;
+        }
+        .viewed__descr {
+            width: 584px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        .viewed__text {
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+            padding: 7px 0 5px 10px;
+        }
+    }
+    .viewed__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    .viewed__icon {
+        margin-top: 6px;
+    }
+    .viewed__title {
+        display: flex;
+        justify-content: space-between;
+    }
+    .viewed__icons {
+        margin: 12px 18px 0 0;
+    }
+}
