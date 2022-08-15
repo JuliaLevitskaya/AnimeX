@@ -1,5 +1,7 @@
 @import 'blocks/header';
 @import 'blocks/viewed';
+@import 'blocks/anime';
+@import 'blocks/releases';
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,6 @@
     justify-content: center;
 }
 
-.bg__color {
+.home {
     background: linear-gradient(90deg, rgba(16, 8, 38, 1) 16%, rgba(42, 31, 66, 1) 49%, rgba(16, 7, 40, 1) 90%);
 }
