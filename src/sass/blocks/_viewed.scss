@@ -36,16 +36,16 @@
             height: 45px;
             border-radius: 15px 15px 0 0;
             margin-bottom: 15px;
-            &::before {
-                content: '';
-                position: absolute;
-                width: 59px;
-                height: 45px;
-                right: 0;
-                background-color: #C4C4C4;
-                border-radius: 0px 15px 0px 0px;
-                opacity: 0.2;
-            }
+            // &::before {
+            //     content: '';
+            //     position: absolute;
+            //     width: 59px;
+            //     height: 45px;
+            //     right: 0;
+            //     background-color: #C4C4C4;
+            //     border-radius: 0px 15px 0px 0px;
+            //     opacity: 0.2;
+            // }
         }
         .viewed__text-fz {
             font-weight: 500;
@@ -80,5 +80,6 @@
     }
     .viewed__icons {
         margin: 12px 18px 0 0;
+        cursor: pointer;
     }
 }
