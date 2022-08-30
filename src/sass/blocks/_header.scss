@@ -90,3 +90,21 @@
         }
     }
 }
+
+.header__descr {
+    display: flex;
+    margin-top: 10px;
+    .header__descr-img {
+        border-radius: 20px;
+    }
+    .header__descr-text {
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        margin-top: 7px;
+    }
+    .header__item-info {
+        margin-left: 15px;
+    }
+}
