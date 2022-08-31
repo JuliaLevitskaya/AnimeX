@@ -49,3 +49,55 @@
         }
     }
 }
+
+.jujutsu__footer {
+    min-height: 80px;
+    margin-top: 300px;
+    background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+    .footer__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 90px;
+        ul {
+            display: flex;
+            list-style-type: none;
+            li {
+                margin-right: 20px;
+                width: 32px;
+                height: 31px;
+                background: linear-gradient(95.43deg, #18102E 29.82%, #754672 144.74%);
+                opacity: 0.5;
+                box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 50px;
+                text-align: center;
+                padding: 4px;
+                cursor: pointer;
+            }
+        }
+        .footer__social-network {
+            display: flex;
+            .footer__item {
+                display: flex;
+                background: linear-gradient(95.43deg, #18102E 29.82%, #754672 144.74%);
+                opacity: 0.5;
+                box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                padding: 7px;
+            }
+            .footer__img {
+                margin-right: 14px;
+                cursor: pointer;
+            }
+            .footer__text {
+                font-weight: 700;
+                font-size: 14px;
+                color: #1ABDF2;
+                margin-top: 5px;
+            }
+            .footer__socials {
+                margin-top: 5px;
+                display: flex;
+            }
+        }
+    }
+}
