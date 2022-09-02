@@ -1,0 +1,73 @@
+.anime__a-channel {
+    min-height: 1100px;
+    .anime__a-channel-header {
+        background: #201639;
+        border-radius: 15px 15px 0 0;
+        width: 1237px;
+        border: 2px solid #754672;
+        display: flex;
+        justify-content: center;
+        padding: 17px 0;
+        margin-top: 70px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #1ABDF2;
+    }
+    .anime__a-channel-items {
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 10px 10px;
+        padding: 30px 80px 30px 30px;
+    }
+    .anime__a-channel-item {
+        display: flex;
+    }
+    .anime__a-channel-descr {
+        margin-left: 30px;
+    }
+    .anime__a-channel-text {
+        font-weight: 600;
+        font-size: 26px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    .anime__a-channel-title {
+        position: relative;
+        font-weight: 600;
+        font-size: 26px;
+        color: #1ABDF2;
+        margin-right: 10px;
+        margin-top: 10px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 760px;
+            height: 1px;
+            background: #1ABDF2;
+            opacity: 0.2;
+            border-radius: 15px;
+            bottom: -4px;
+            left: -30px;
+        }
+    }
+    .anime__a-channel-titles {
+        font-weight: 600;
+        font-size: 26px;
+        color: #1ABDF2;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .anime__a-channel-grade {
+        margin-top: 10px;
+    }
+    .anime__a-channel-subtitle {
+        width: 1130px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .a-channel-descr {
+        margin-top: 80px;
+    }
+}
