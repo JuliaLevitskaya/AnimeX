@@ -1,0 +1,44 @@
+.episodes {
+    min-height: 470px;
+    .episodes__item {
+        width: 1240px;
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .episodes__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .episodes__header-text {
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .episodes__header-icon {
+        cursor: pointer;
+    }
+    .episodes__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .episodes__anime-title {
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .episodes__anime-icon {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+    .episodes__anime-img {
+        cursor: pointer;
+    }
+}
