@@ -1,0 +1,56 @@
+.wallpapers {
+    min-height: 800px;
+    .wallpapers__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 25px;
+        width: 1200px;
+        background: #170e2e;
+        border: 2px solid #4b3a73;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .wallpapers__header-item {
+        display: flex;
+        .wallpapers__header-title {
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+    }
+    .wallpapers__choice {
+        display: flex;
+        border: 1.5px solid #2B1F46;
+        border-radius: 18px;
+        padding: 5px 15px;
+        cursor: pointer;
+        .wallpapers__choice-title {
+            font-weight: 500;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-right: 15px;
+        }
+    }
+    .wallpapers__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wallpapers__downloads {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .wallpaper {
+        padding: 40px 20px 10px 20px;
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 20px 20px;
+    }
+    .wallpapers__downloads-icon {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+}
