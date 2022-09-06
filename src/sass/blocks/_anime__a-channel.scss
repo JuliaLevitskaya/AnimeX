@@ -71,3 +71,25 @@
         margin-top: 80px;
     }
 }
+
+.manga__img {
+    margin-left: 70px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.manga__btn {
+    display: flex;
+    .manga__text {
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-right: 60px;
+        margin-top: 20px;
+        border: 2px solid #1ABDF2;
+        filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.25));
+        border-radius: 15px;
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+}
