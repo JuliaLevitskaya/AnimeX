@@ -1,0 +1,40 @@
+.manga__store {
+    min-height: 650px;
+    margin-top: 100px;
+    position: relative;
+    .store__manga-items {
+        display: flex;
+        padding: 40px 20px;
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 20px 20px;
+        position: relative;
+        min-height: 400px;
+    }
+    .store__manga-items-animation {
+        position: relative;
+        margin-right: 100px;
+    }
+}
+
+.store__manga-items-animation {
+    position: relative;
+}
+
+.store__manga-items-animation:hover .store__anime-icons {
+    display: initial;
+}
+
+.store__anime-purchase {
+    display: none;
+}
+
+.store__manga-items-animation:hover .store__anime-purchase {
+    display: initial;
+    position: absolute;
+}
+
+.store__manga-items-animation:hover .store__anime-icons {
+    position: absolute;
+    top: 30px;
+    left: 100%;
+}
