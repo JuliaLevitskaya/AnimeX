@@ -1,0 +1,101 @@
+.comments {
+    min-height: 800px;
+    .comments__item-header {
+        background: #201639;
+        border-radius: 15px 15px 0 0;
+        width: 1200px;
+        border: 2px solid #754672;
+        display: flex;
+        .comments__item-icon {
+            padding: 10px 0 5px 15px;
+        }
+        .comments__item-title {
+            font-weight: 700;
+            font-size: 25px;
+            color: #FFFFFF;
+            padding: 18px 0 5px 10px;
+        }
+    }
+    .comments__items {
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 10px 10px;
+        padding: 25px 0 25px 0;
+    }
+    .comments__item {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        .comments__item-name {
+            display: flex;
+        }
+        .comments__item-reaction {
+            display: flex;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .comments__item-img {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        .comments__item-icon {
+            margin-top: 5px;
+        }
+        .comments__item-nickname {
+            font-weight: 500;
+            font-size: 18px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        .comments__item-activity {
+            position: relative;
+            font-weight: 500;
+            font-size: 13px;
+            color: #FFFFFF;
+            opacity: 0.5;
+            margin-left: 20px;
+            padding-top: 4px;
+            &::before {
+                content: '';
+                position: absolute;
+                opacity: 0.5;
+                background-color: #FFFFFF;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                top: 9px;
+                left: -12px;
+            }
+        }
+        .comments__item-info {
+            margin: 10px 0 0 20px;
+        }
+        .comments__item-descr {
+            font-weight: 500;
+            font-size: 22px;
+            color: #FFFFFF;
+            margin-top: 6px;
+        }
+        .comments__item-btn {
+            font-weight: 500;
+            font-size: 13px;
+            color: #FFFFFF;
+            opacity: 0.5;
+            background: #221839;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+            padding: 7px 14px;
+            border: none;
+            cursor: pointer;
+            margin-left: 25px;
+        }
+    }
+    .comments__item-strip {
+        height: 1px;
+        background: rgba(26, 189, 242, .2);
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,169 @@
+.store {
+    min-height: 550px;
+    margin-top: 100px;
+    position: relative;
+    &__anime {
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 25px;
+            width: 1200px;
+            background: #170e2e;
+            border: 2px solid #4b3a73;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            .store__info {
+                display: flex;
+            }
+            .store__anime-title {
+                font-weight: 700;
+                font-size: 25px;
+                color: #FFFFFF;
+                margin-left: 20px;
+                margin-top: 9px;
+            }
+            .store__anime-icon {
+                margin-top: 5px;
+            }
+        }
+        .store__anime-items {
+            display: flex;
+            padding: 40px 20px;
+            background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+            border-radius: 0 0 20px 20px;
+            justify-content: space-between;
+            position: relative;
+            min-height: 400px;
+        }
+        .store__anime-item {
+            background: #170e2e;
+            border: 2px solid #4b3a73;
+            border-radius: 20px;
+            padding: 30px 30px;
+        }
+        .store__anime-block {
+            background: #170e2e;
+            border: 2px solid #4b3a73;
+            border-radius: 20px;
+            padding: 35px 30px;
+        }
+        .store__anime-text {
+            font-weight: 700;
+            font-size: 24px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .store__anime-subtitle {
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
+
+.store__anime-price {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.store__anime-btn {
+    margin: 15px 7px;
+    background: linear-gradient(89.13deg, #1E123E -126.07%, #754672 41.18%);
+    // opacity: 0.5;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.store__anime-items-purchase {
+    display: flex;
+    position: absolute;
+}
+
+.store__anime-purchase {
+    display: none;
+    /* border: 2px solid #4b3a73; */
+    border-radius: 0 0 20px 20px;
+    padding: 30px 28px;
+    background: #170e2e;
+    /* position: relative; */
+    /* z-index: 2; */
+    position: absolute;
+    z-index: 2;
+    /* top: -5px; */
+    bottom: -81px;
+    -webkit-filter: drop-shadow(6px 7px 5px rgba(26, 189, 242, .8));
+}
+
+.store__anime-item-animation {
+    background: #170e2e;
+    /* border: 2px solid #4b3a73; */
+    border-radius: 20px;
+    padding: 30px 30px;
+    -webkit-filter: drop-shadow(5px 4px 3px rgba(26, 189, 242, .8));
+    filter: drop-shadow(7px -13px 5px rgba(26, 189, 242, .8));
+    position: relative;
+    z-index: 10;
+}
+
+.store__anime-icons {
+    margin-top: 10px;
+    width: 82px;
+    display: none;
+}
+
+.store__anime-items-animation {
+    position: relative;
+}
+
+.store__anime-items-animation:hover .store__anime-icons {
+    display: initial;
+}
+
+.store__anime-purchase {
+    display: none;
+}
+
+.store__anime-items-animation:hover .store__anime-purchase {
+    display: initial;
+    position: absolute;
+}
+
+.store__anime-items-animation:hover .store__anime-icons {
+    position: absolute;
+    top: 30px;
+    left: 100%;
+}
+
+.store__anime-icon-animation {
+    margin-top: 20px;
+    background: #6e2c68;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 0px;
+    padding-left: 20px;
+    // padding: 10px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.store__anime-img {
+    margin-top: 20px;
+    background: #6e2c68;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 0px;
+    padding-left: 20px;
+    padding: 10px 17px 10px 17px;
+    cursor: pointer;
+}

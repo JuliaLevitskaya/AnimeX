@@ -1,0 +1,57 @@
+.downloads {
+    min-height: 700px;
+    // background-image: url('../img/Fundoo.png');
+    // object-fit: cover;
+    // height: 913px;
+    // width: 2303px;
+    background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+    margin-top: 90px;
+    .downloads__app {
+        margin: 90px 50px 90px 180px;
+        &-items {
+            display: flex;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 47px;
+            color: #1ABDF2;
+            text-shadow: 5px 4px 4px rgba(117, 70, 114, 0.3);
+        }
+        &-subtitle {
+            font-weight: 500;
+            font-size: 36px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.92);
+            margin-top: 20px;
+        }
+        .downloads__app-icons {
+            width: 590px;
+        }
+        .downloads__app-item {
+            display: flex;
+            margin-top: 70px;
+            .downloads__app-img {
+                margin-right: 40px;
+                margin-top: 5px;
+            }
+            .downloads__app-descr {
+                font-weight: 700;
+                font-size: 24px;
+                color: #FFFFFF;
+                margin-top: 15px;
+                background: linear-gradient(89.13deg, #1ABDF2 -126.07%, #754672 41.18%);
+                box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                padding: 15px 15px;
+                cursor: pointer;
+            }
+        }
+        .downloads__app-logo {
+            margin: 0 160px;
+            margin-top: 70px;
+        }
+        .downloads__app-text {
+            width: 690px;
+        }
+    }
+}

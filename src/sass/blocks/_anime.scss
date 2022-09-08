@@ -1,0 +1,80 @@
+.anime {
+    min-height: 1200px;
+    margin-top: 70px;
+    .recommendations {
+        &__anime {
+            width: 1200px;
+            height: 500px;
+            background: linear-gradient(90deg, rgba(52, 38, 92, 1) 0%, rgba(52, 38, 92, 1) 16%, rgba(117, 70, 114, 1) 74%);
+            margin-bottom: 40px;
+            border-radius: 20px;
+            .recommendations__title {
+                padding: 10px 0 10px 20px;
+                display: flex;
+                background: #170E2E;
+                border: 2px solid #4b3a73;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                .recommendations__text {
+                    margin-left: 20px;
+                    padding-top: 10px;
+                    font-weight: 700;
+                    font-size: 25px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .recommendations__item {
+            margin: 30px 50px 60px 50px;
+            width: 250px;
+        }
+        .recommendations__subtitle {
+            font-weight: 700;
+            font-size: 24px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .recommendations__descr {
+            font-weight: 500;
+            font-size: 13px;
+            color: #FFFFFF;
+            opacity: 0.5;
+            text-align: center;
+            margin-top: 8px;
+        }
+        .recommendations__favorite {
+            width: 145px;
+            height: 39px;
+            border: 1px solid #1ABDF2;
+            border-radius: 15px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        .recommendations__img {
+            width: 20px;
+            height: 20px;
+            margin-right: 11px;
+            cursor: pointer;
+        }
+        .recommendations__text {
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            span {
+                color: #1ABDF2;
+            }
+        }
+        .recommendations__block {
+            display: flex;
+            padding: 10px;
+        }
+        .recommendations__items {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,131 @@
+.releases {
+    min-height: 750px;
+    &__anime {
+        margin-left: 28px;
+        margin-top: -20px;
+        h1 {
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            opacity: 0.8;
+            text-align: center;
+        }
+        .releases__anime-titles {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 194px;
+            margin-top: -15px;
+            .releases__anime-title {
+                font-weight: 400;
+                font-size: 36px;
+                color: #1ABDF2;
+                background: #2B1F46;
+                border-radius: 15px 15px 0px 0px;
+                padding: 10px 30px;
+            }
+            .releases__anime-mr {
+                margin-right: 42px;
+            }
+        }
+        .releases__anime-items {
+            display: flex;
+            .releases__anime-item {
+                position: relative;
+                min-height: 500px;
+                width: 600px;
+                margin-right: 35px;
+                background: linear-gradient(90deg, rgb(52, 38, 92) 0px, rgb(52, 38, 92) 16%, rgb(117, 70, 114) 74%);
+                border-radius: 20px;
+                // margin-top: 40px;
+                display: flex;
+                .releases__anime-img {
+                    position: absolute;
+                    object-fit: cover;
+                    width: 400px;
+                    height: 450px;
+                    left: -60px;
+                    bottom: -8px;
+                    transform: matrix(-1, 0, 0, 1, 0, 0);
+                }
+                .releases__anime-kimetsu {
+                    position: absolute;
+                    object-fit: cover;
+                    width: 500px;
+                    height: 620px;
+                    bottom: -8px;
+                    right: 0;
+                    border-radius: 0 0 20px 0;
+                }
+                .releases__anime-arrow {
+                    padding: 20px 0 0 20px;
+                    cursor: pointer;
+                }
+                .releases__anime-text {
+                    padding: 20px 20px 10px 270px;
+                    h2 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        color: #FFFFFF;
+                    }
+                    .releases__anime-descr {
+                        font-weight: 500;
+                        font-size: 17px;
+                        color: #FFFFFF;
+                        margin-top: 16px;
+                    }
+                    .releases__anime-btn {
+                        width: 250px;
+                        height: 47px;
+                        background: #2B1F46;
+                        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 15px;
+                        border: none;
+                        cursor: pointer;
+                        font-weight: 800;
+                        font-size: 24px;
+                        color: #FFFFFF;
+                        margin-top: 30px;
+                        // &:hover {
+                        //     box-shadow: 3px 3px 4px rgba(21, 22, 47, 0.25);
+                        //     transition: 3s;
+                        // }
+                    }
+                    .releases__anime-button {
+                        margin-top: 75px;
+                    }
+                }
+                .releases__anime-info {
+                    padding: 20px 270px 10px 20px;
+                    z-index: 100;
+                    .releases__anime-btn {
+                        cursor: pointer;
+                    }
+                }
+                .releases__anime-icon {
+                    padding: 20px 20px 0 0;
+                    cursor: pointer;
+                }
+            }
+        }
+        .releases__anime-list {
+            margin-top: 20px;
+            ul {
+                display: flex;
+                li {
+                    background: linear-gradient(95.43deg, #18102E 29.82%, #754672 144.74%);
+                    opacity: 0.5;
+                    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 15px;
+                    margin-right: 8px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}

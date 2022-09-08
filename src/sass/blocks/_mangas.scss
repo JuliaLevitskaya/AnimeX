@@ -1,0 +1,141 @@
+.list__mangas {
+    min-height: 1900px;
+    margin-top: 80px;
+    min-height: 1900px;
+    margin-top: 80px;
+    .list__anime-header {
+        background: #201639;
+        border-radius: 15px 15px 0 0;
+        width: 1240px;
+        border: 2px solid #754672;
+        display: flex;
+        justify-content: center;
+    }
+    .list__anime-title {
+        font-weight: 700;
+        font-size: 36px;
+        color: #1ABDF2;
+        margin-top: 15px;
+    }
+    .list__mangas-items {
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 10px 10px;
+        width: 1244px;
+    }
+    .list__anime-item {
+        display: flex;
+        padding: 25px 20px 0 20px;
+        .list__anime-letter--activy {
+            background: linear-gradient(302.55deg, #754672 5.46%, #110C1F 157.52%);
+            box-shadow: 3px 4px 4px #1ABDF2;
+            border-radius: 4px;
+            padding: 5px 13px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #1ABDF2;
+            margin-right: 11px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .list__anime-letter {
+            padding: 5px 13px;
+            background: #110C1F;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-right: 11.5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    }
+    .list__anime-separator {
+        margin-top: 20px;
+        width: 1244px;
+        height: 1px;
+        background: rgba(196, 196, 196, 0.2);
+        border-radius: 15px;
+    }
+    .list__anime-choices {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 15px;
+        .list__anime-choice {
+            display: flex;
+            margin-right: 20px;
+            background: #2B1F46;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+            padding: 10px 8px;
+            cursor: pointer;
+        }
+        .list__anime-text {
+            font-weight: 600;
+            font-size: 26px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            margin-right: 10px;
+        }
+    }
+    .list__animes {
+        padding: 25px 0 0 20px;
+        .list__animes-items {
+            display: flex;
+            margin-left: 21px;
+            .list__animes-img {
+                background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.63) 20.84%, rgba(0, 0, 0, 0.29) 49.3%, rgba(0, 0, 0, 0.25) 100%);
+                border: 3px solid #1ABDF2;
+                box-shadow: 3px 4px 4px #1ABDF2;
+                border-radius: 15px;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+            .list__animes-text {
+                font-weight: 700;
+                font-size: 24px;
+                text-decoration-line: underline;
+                color: #FFFFFF;
+                cursor: pointer;
+                text-align: center;
+            }
+            .list__animes-item {
+                width: 210px;
+                margin-right: 30px;
+            }
+            .list__animes-icon {
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .list__animes-switch {
+        margin: 40px 0 30px 0;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .list__animes-number {
+        position: relative;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-right: 30px;
+        margin-left: 30px;
+        cursor: pointer;
+        &::after {
+            content: '';
+            position: absolute;
+            border: 1.5px solid #2B1F46;
+            border-radius: 15px;
+            width: 25px;
+            height: 25px;
+            top: -5px;
+            left: -11px;
+        }
+    }
+    .list__anime-img {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}

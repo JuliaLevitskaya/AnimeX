@@ -1,0 +1,32 @@
+.store__choise {
+    min-height: 250px;
+    margin-top: 90px;
+    .store__choise-items {
+        width: 1200px;
+        background: radial-gradient(722.12% 8143.24% at -50.2% -440.61%, #2A203F 0%, rgba(117, 70, 114, 0.59) 0%, rgba(26, 189, 242, 0.08) 31.18%, rgba(117, 70, 114, 0.49) 70.24%, rgba(26, 189, 242, 0.47) 100%);
+        box-shadow: 3px 4px 15px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 180px;
+        padding: 20px 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .store__choise-bg {
+        background: #754672;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        cursor: pointer;
+    }
+    .store__choise-bg--big {
+        display: flex;
+        justify-content: center;
+    }
+    .store__choise-subtitle {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+}
