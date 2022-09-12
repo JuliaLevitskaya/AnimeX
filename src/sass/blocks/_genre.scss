@@ -34,3 +34,31 @@
         }
     }
 }
+
+.genre__anime {
+    min-height: 880px;
+    .genre__anime-text {
+        text-align: center;
+        font-weight: 500;
+        font-size: 36px;
+        color: #FFFFFF;
+        width: 656px;
+        margin: 0 auto;
+    }
+    .genre__anime-items {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 90px 0 90px;
+        .genre__anime-subtitle {
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-top: 10px;
+            width: 240px;
+        }
+        .genre__anime-item {
+            cursor: pointer;
+        }
+    }
+}
