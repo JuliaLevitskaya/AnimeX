@@ -62,3 +62,82 @@
         }
     }
 }
+
+.genre__anime-store {
+    min-height: 1400px;
+    margin-top: 90px;
+    .genre__store-header {
+        padding: 15px 25px;
+        width: 1200px;
+        background: #170e2e;
+        border: 2px solid #4b3a73;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        .genre__store-title {
+            font-weight: 500;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-left: 15px;
+        }
+    }
+    .genre__store-anime {
+        padding: 30px 50px 40px 50px;
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 20px 20px;
+        .genre__store-items {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+            margin-bottom: 50px;
+        }
+        .genre__store-item {
+            width: 200px;
+            .genre__store-text {
+                text-align: center;
+                font-weight: 500;
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-top: 7px;
+            }
+            .genre__store-subtitle {
+                font-weight: 800;
+                font-size: 24px;
+                color: #FFFFFF;
+                text-align: center;
+                margin-top: 10px;
+            }
+            .genre__store-btn {
+                font-weight: 800;
+                font-size: 24px;
+                color: #FFFFFF;
+                background: linear-gradient(89.13deg, #1E123E -126.07%, #754672 41.18%);
+                box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                padding: 10px 20px;
+                border: none;
+                margin-top: 15px;
+                margin-left: 12px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.genre__romance {
+    min-height: 680px;
+    .genre__romance-header {
+        padding: 15px 25px;
+        width: 1200px;
+        background: #170e2e;
+        border: 2px solid #4b3a73;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        .genre__romance-title {
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+        }
+    }
+}
