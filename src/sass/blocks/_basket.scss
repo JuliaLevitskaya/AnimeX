@@ -1,0 +1,148 @@
+.basket__btn {
+    background: linear-gradient(95.43deg, #18102E 29.82%, #754672 144.74%);
+    padding: 6px 7px;
+    box-shadow: 2px 2px 3px #1ABDF2;
+    border-radius: 15px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.basket {
+    min-height: 860px;
+    margin-top: 70px;
+    .basket__header {
+        padding: 15px 25px;
+        width: 1200px;
+        background: #170e2e;
+        border: 2px solid #4b3a73;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        .basket__header-title {
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+            margin-left: 15px;
+        }
+    }
+    .basket__items {
+        display: flex;
+        padding: 30px 50px 30px 50px;
+        background: linear-gradient(90deg, #34265c 0, #34265c 16%, #754672 74%);
+        border-radius: 0 0 20px 20px;
+        .basket__item {
+            position: relative;
+            background: #170e2e;
+            border: 2px solid #4b3a73;
+            border-radius: 20px;
+            padding: 20px 30px;
+            width: 170px;
+            filter: drop-shadow(5px 4px 3px rgba(26, 189, 242, 0.4));
+            .basket__item-pictures {
+                display: flex;
+                .basket__item-img {
+                    position: absolute;
+                    right: -71px;
+                    background: #754672;
+                    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 0px 15px 15px 0px;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                }
+            }
+            .basket__item-title {
+                margin-top: 10px;
+                font-weight: 700;
+                font-size: 24px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+            .basket__item-subtitle {
+                font-weight: 500;
+                font-size: 24px;
+                margin-top: 7px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+            .basket__item-price {
+                font-weight: 800;
+                font-size: 24px;
+                margin-top: 5px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+        }
+        .basket__itemm {
+            margin-left: 100px;
+        }
+        .basket__choises {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+            .basket__choise-number {
+                font-weight: 800;
+                font-size: 24px;
+                color: #FFFFFF;
+                border: 2px solid #1ABDF2;
+                filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.25));
+                border-radius: 15px;
+                padding: 3px 22px;
+            }
+            .basket__choise {
+                cursor: pointer;
+            }
+        }
+        .basket__item-text {
+            font-weight: 500;
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-top: 15px;
+            border: 2px solid #1ABDF2;
+            filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.25));
+            border-radius: 15px;
+            padding: 10px;
+            text-align: center;
+        }
+        .basket__item-gift {
+            display: flex;
+            border: 2px solid #1ABDF2;
+            filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.25));
+            border-radius: 15px;
+            padding: 2px 20px;
+            width: 130px;
+            justify-content: center;
+            margin-left: 28px;
+            margin-top: 20px;
+            .basket__gift-text {
+                text-align: center;
+                font-weight: 500;
+                font-size: 18px;
+                color: #FFFFFF;
+                margin-left: 10px;
+                padding-top: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+    .basket__item-btns {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+        .basket__item-btn {
+            font-weight: 800;
+            font-size: 24px;
+            color: #FFFFFF;
+            background: linear-gradient(89.13deg, #1E123E -126.07%, #754672 41.18%);
+            padding: 10px 20px;
+            box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+        .basket__btns {
+            display: flex;
+        }
+    }
+}
