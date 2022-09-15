@@ -62,32 +62,33 @@
         display: flex;
         justify-content: space-between;
         margin-right: 80px;
-        .header__search {
-            margin-top: 10px;
-            form {
-                position: relative;
-                &::before {
-                    content: '';
-                    position: absolute;
-                    background-image: url("../icons/search.png");
-                    width: 22px;
-                    height: 22px;
-                    left: 10px;
-                    top: 22px;
-                }
-            }
-            .search {
-                width: 300px;
-                height: 25px;
-                background-color: #11052C;
-                border: 2px solid #754672;
-                border-radius: 0 0 15px 15px;
-                font-weight: 300;
-                font-size: 24px;
-                color: #1ABDF2;
-                padding: 20px 10px 10px 40px;
-            }
+    }
+}
+
+.header__search {
+    margin-top: 10px;
+    form {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url("../icons/search.png");
+            width: 22px;
+            height: 22px;
+            left: 10px;
+            top: 22px;
         }
+    }
+    .search {
+        width: 300px;
+        height: 25px;
+        background-color: #11052C;
+        border: 2px solid #754672;
+        border-radius: 0 0 15px 15px;
+        font-weight: 300;
+        font-size: 24px;
+        color: #1ABDF2;
+        padding: 20px 10px 10px 40px;
     }
 }
 
@@ -106,5 +107,93 @@
     }
     .header__item-info {
         margin-left: 15px;
+    }
+}
+
+.profile__header {
+    min-height: 480px;
+    &__logo {
+        padding: 7px 5px 0 5px;
+    }
+    &__icon {
+        cursor: pointer;
+    }
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        min-height: 76px;
+        background: linear-gradient(90deg, rgba(63, 47, 98, 1) 0%, rgba(29, 20, 50, 1) 28%, rgba(23, 16, 38, 1) 100%);
+        padding: 5px 10px;
+        border: 4px solid #4b3a73;
+        border-radius: 0 0 20px 20px;
+        z-index: 1;
+        position: relative;
+        .header__list-icon {
+            padding-top: 8px;
+            cursor: pointer;
+            margin-right: 90px;
+        }
+    }
+    .header__user {
+        padding: 8px 5px 3px 18px;
+        display: flex;
+        z-index: 0;
+        position: relative;
+        width: 240px;
+        height: 80px;
+        margin-left: 5px;
+        margin-top: -8px;
+        background: linear-gradient(90deg, rgba(25, 4, 46, 1) 28%, rgba(63, 47, 98, 1) 100%, rgba(12, 0, 36, 1) 100%);
+        border: 5px solid #4b3a73;
+        border-radius: 0 0 20px 20px;
+        .header__user-data {
+            padding-left: 5px;
+            .header__user-name {
+                padding-top: 10px;
+                font-weight: 600;
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+        }
+        .header__buttons {
+            padding-top: 15px;
+            .header__btn {
+                cursor: pointer;
+            }
+        }
+        .header__item {
+            width: 37px;
+            height: 30px;
+        }
+        .header__close {
+            width: 10px;
+            height: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.photo__profile {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.header__profile {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    background-image: url('../img/jujutsu-kaisen-wallpapers-04 1.svg');
+    min-height: 384px;
+    background-repeat: no-repeat;
+    width: 100%;
+    .header__profile-img {
+        position: absolute;
+        bottom: 18px;
+        right: 27px;
+        padding: 8px 10px;
+        border-radius: 50%;
+        background: #1ABDF2;
+        cursor: pointer;
     }
 }
